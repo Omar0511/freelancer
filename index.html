@@ -29,6 +29,8 @@
     <!-- Casi siempre después del header va un section o main -->
     <section>
         <h2>Diseño y Desarrollo Web Freelancer</h2>
+
+        <!-- ICONOS: tabler icons -->
         
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -104,6 +106,37 @@
 
     <section>
         <h2>Contacto</h2>
+
+        <form>
+            <fieldset>
+                <legend>Contáctanos llenando todos los campos</legend>
+
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre...">
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu teléfono...">
+                </div>
+
+                <div>
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" placeholder="Ingresa tu e-mail...">
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+                <!-- 
+                    Sería lo mismo que usa un button
+                -->
+            </fieldset>
+        </form>
     </section>
 
     <footer>
