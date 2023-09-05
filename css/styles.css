@@ -1,0 +1,22 @@
+/* 
+    Con las líneas del HTML y BODY, ayudamos a que la medida del REM,
+    sea fácil de utilizar.
+    1 REM = 10PX
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+span {
+    font-size: 2rem;
+}
