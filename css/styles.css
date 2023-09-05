@@ -2,6 +2,23 @@
     Con las líneas del HTML y BODY, ayudamos a que la medida del REM,
     sea fácil de utilizar.
     1 REM = 10PX
+
+    Selectores de atributo
+    src=[logo.jpg] {
+        color: blue;
+    }
+
+    Combinación de descendentes
+    .cliente .nombre {
+        color: blue;
+    }
+
+    Todos lo hijos
+    .cliente > p {
+        color: blue;
+    }
+
+    Se recomienda usar clases, en lugar de las etiquetas.
 */
 
 html {
@@ -12,11 +29,11 @@ body {
     font-size: 16px;
 }
 
-h1 {
+.titulo {
     text-align: center;
     font-size: 3.8rem;
 }
 
-span {
+.titulo span {
     font-size: 2rem;
 }
