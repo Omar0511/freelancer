@@ -95,3 +95,8 @@ body {
     background-color: var(--primario);
     color: var(--oscuro);
 }
+
+/* Media Queries todo lo que este arriba de 480px es lo que se utilizará */
+@media (min-width: 480px) {
+    
+}
