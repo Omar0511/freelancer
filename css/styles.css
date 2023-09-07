@@ -50,6 +50,15 @@
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+/* 
+    https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+    ayuda en las medidas de heigth y padding
+*/
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -134,4 +143,6 @@ body {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 45rem;
+    padding: 2rem;
 }
