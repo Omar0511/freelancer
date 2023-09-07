@@ -29,6 +29,23 @@
     }
 
     Se recomienda usar clases, en lugar de las etiquetas.
+
+    Ejemplos
+    *BEM*: 
+    Bloques: .card {}
+    Elementos:  .card__titulo {}
+    Modificadores: .card__boton--activo {} 
+
+    *Utility First*
+    .test-center {}
+    .color-red-100 {}
+    .p-2 {}
+
+    *Módulos* (es el que se usa en este proyecto)
+    .card {}
+    .card h2 {}
+    .card img {}
+    .card {}
 */
 
 html {
