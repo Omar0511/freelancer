@@ -61,6 +61,9 @@ body {
 
 .navegacion-principal {
     padding: 1rem;
+    /* Display: Flex; siempre se agrega en el padre */
+    display: flex;
+    justify-content: space-between;
 }
 
 .navegacion-principal a {    
