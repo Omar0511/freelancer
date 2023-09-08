@@ -124,7 +124,7 @@
                         <path d="M11 15l2 0" />
                     </svg>        
                 </div>
-                
+
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus neque numquam quis nihil id nulla vitae amet, obcaecati voluptates dolore. Vel porro sed quod velit laborum architecto pariatur, officia maxime.
                 </p>
@@ -134,34 +134,38 @@
         <section>
             <h2>Contacto</h2>
     
-            <form>
+            <form class="formulario">
                 <fieldset>
                     <legend>Contáctanos llenando todos los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre...">
+                        </div>
+        
+                        <div class="campo">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu teléfono...">
+                        </div>
+        
+                        <div class="campo">
+                            <label for="correo">Correo</label>
+                            <input type="email" name="correo" id="correo" placeholder="Ingresa tu e-mail...">
+                        </div>
+        
+                        <div class="campo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
     
-                    <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre...">
+                        <div class="">
+                            <input type="submit" name="enviar" id="enviar" value="Enviar">
+                            <!-- 
+                                Sería lo mismo que usa un button
+                            -->
+                        </div>
                     </div>
-    
-                    <div>
-                        <label for="telefono">Teléfono</label>
-                        <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu teléfono...">
-                    </div>
-    
-                    <div>
-                        <label for="correo">Correo</label>
-                        <input type="email" name="correo" id="correo" placeholder="Ingresa tu e-mail...">
-                    </div>
-    
-                    <div>
-                        <label for="mensaje">Mensaje</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-    
-                    <input type="submit" name="enviar" id="enviar" value="Enviar">
-                    <!-- 
-                        Sería lo mismo que usa un button
-                    -->
                 </fieldset>
             </form>
         </section>
