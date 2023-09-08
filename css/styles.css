@@ -84,7 +84,8 @@ h2,
 h3 {
     text-align: center;
 }
-.titulo span {
+
+span {
     font-size: 2rem;
 }
 
@@ -181,4 +182,28 @@ h3 {
 .ubicacion {
     display: flex;
     align-items: flex-end;
+}
+
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .boton {
+        width: auto;
+    }
 }
