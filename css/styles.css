@@ -231,3 +231,25 @@ span {
     display: flex;
     align-items: flex-end;
 }
+
+/* Servicios */
+@media (min-width: 768px){
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+        /* 
+            grid-template-columns: 300px 300px;
+    
+            Otra opción:
+            grid-template-columns: 33.% 33.3% 33.3%;
+    
+            Otra mas:
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 200px 800px;
+    
+            Esto es lo mismo:
+            grid: 200px 800px / 300px 300px;
+        */
+    }
+}
