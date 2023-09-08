@@ -53,6 +53,15 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+/* Scroll  */
+.navegacion-principal,
+.servicios,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 /* 
