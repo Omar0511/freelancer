@@ -381,3 +381,11 @@ span {
 .campo textarea {
     height: 20rem;
 }
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
