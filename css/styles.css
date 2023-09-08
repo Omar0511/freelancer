@@ -94,10 +94,34 @@ body {
     -o-border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
 }
 
 @media (min-width: 768px){
     .boton {
+        width: auto;
+    }
+}
+
+/* Utilidades */
+.flex {
+    display: flex;
+}
+
+.alinear-derecha {
+    justify-content: flex-end;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .w-100 {
         width: auto;
     }
 }
@@ -327,6 +351,14 @@ span {
     display: block;
 }
 
-.campo input {
+.campo input,
+.campo textarea {
     width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
