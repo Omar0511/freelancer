@@ -251,5 +251,7 @@ span {
             Esto es lo mismo:
             grid: 200px 800px / 300px 300px;
         */
+
+        column-gap: 1rem;
     }
 }
