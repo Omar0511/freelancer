@@ -26,8 +26,13 @@
 - Responsive Web Design
 - Media Queries
 - CSS por módulos
+- Normalize
 
 ### Descripción
 
 1. Uno de mis primeros proyectos.
 1. Sitio Web sobre servicios que pudiera ofrecer un Freelancer.
+
+### URL
+
+- url **(https://freelancer-developer.netlify.app)**
