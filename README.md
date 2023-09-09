@@ -35,4 +35,4 @@
 
 ### URL
 
-- url **(https://freelancer-developer.netlify.app)**
+- sitio **(https://freelancer-developer.netlify.app)**
