@@ -6,16 +6,16 @@
 
 ### Iconos
 
-- tabler icons.
+- Tabler icons.
 
 ### Tipografía
 
 - Google Fonts
-- Krub (regular 400, bold 700).
+- _Krub (regular 400, bold 700)_
 
 ### Sombras
 
-- Css Matic
+- **Css Matic**
 
 ### Tecnologías
 
@@ -27,12 +27,13 @@
 - Media Queries
 - CSS por módulos
 - Normalize
+- FormSubmit
 
-### Descripción
+#### Descripción
 
 1. Uno de mis primeros proyectos.
 1. Sitio Web sobre servicios que pudiera ofrecer un Freelancer.
 
-### URL
+#### URL
 
-- sitio **(https://freelancer-developer.netlify.app)**
+- Sitio **(https://freelancer-developer.netlify.app)**
