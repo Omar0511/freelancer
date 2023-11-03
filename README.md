@@ -32,7 +32,7 @@
 #### Descripción
 
 1. Uno de mis primeros proyectos.
-1. Sitio Web sobre servicios que pudiera ofrecer un Freelancer.
+1. Sitio Web sobre páginas web que pudiera ofrecer como Freelancer.
 
 #### URL
 
