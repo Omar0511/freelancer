@@ -1,23 +1,6 @@
 # Freelancer Developer
 
-## Herramientas utilizadas
-
-- Visual Studio Code
-
-### Iconos
-
-- Tabler icons.
-
-### Tipografía
-
-- Google Fonts
-- _Krub (regular 400, bold 700)_
-
-### Sombras
-
-- **Css Matic**
-
-### Tecnologías
+## Tecnologías y/o Herramientas Utilizadas
 
 - HTML5
 - CSS3
@@ -28,11 +11,21 @@
 - CSS por módulos
 - Normalize
 - FormSubmit
+- Visual Studio Code
+- Iconos
+    - **Tabler icons**
+- Tipografía
+    - _Google Fonts_
+        - **_Krub (regular 400, bold 700)_**
+- Sombras
+    - **_Css Matic_**
+- Netlify
+    - Hospedaje de la página
 
-#### Descripción
+### Descripción
 
-1. Uno de mis primeros proyectos.
-1. Sitio Web sobre páginas web que pudiera ofrecer como Freelancer.
+- Uno de mis primeros proyectos.
+- Sitio web para ofrecer servicios de Desarrollo Web Freelancer.
 
 #### URL
 
